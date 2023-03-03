@@ -40,6 +40,10 @@
     background-color: #388ae2;
 }
 
+.todo__single input:focus{
+    outline: none;
+}
+
 .input__submit:active {
     transform: scale(0.8);
     box-shadow: 0 0 5px black;
