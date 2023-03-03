@@ -44,3 +44,50 @@
     transform: scale(0.8);
     box-shadow: 0 0 5px black;
   }
+  .todos {
+    border-radius: 5px;
+    display: flex;
+    padding: 15px;
+  }
+
+  .todo__single{
+    display: flex;
+    background-image: url("https://img.freepik.com/free-photo/crumpled-yellow-paper-background-close-up_60487-2390.jpg?size=626&ext=jpg");
+    align-self: center;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 10px;
+  }
+
+  .todos__single--text{
+    flex: 1;
+    padding: 5px;
+    border: none;
+    font-size: 20px;
+  }
+
+  .icon {
+    margin-left:10px;
+    font-size: 25px;
+    cursor: pointer;
+  }
+
+  @media(max-width:1200px){
+    .todo{
+        width: 45%;
+    }
+  }
+
+  @media (max-width:700px){
+    .input{
+        width:95%;
+    }
+    .todo{
+        width: 95%;
+    }
+    .todo__single{
+        width: 90%;
+    }
+  }
+
+ 
