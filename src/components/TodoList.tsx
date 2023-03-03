@@ -10,7 +10,12 @@ function TodoList({ todos, setTodos }: Props) {
   return (
     <div className="todo">
       {todos.map((todo, i) => (
-        <SingleTodo todo={todo} todos={todos} setTodos={setTodos} />
+        <SingleTodo
+          key={todo.id}
+          todo={todo}
+          todos={todos}
+          setTodos={setTodos}
+        />
       ))}
     </div>
   );
